@@ -1,8 +1,12 @@
 
 import './App.css';
-import Header from './Header';
 
+//import Header,{Footer} from './Header'; //used of object and function
 //import {Header,Footer} from '.Header'; //used multiple function
+
+import Header from './Header';
+import Footer from './Component/Footer';
+
 
 function App() {
   let name="WenMantra3"
@@ -11,6 +15,7 @@ function App() {
      {/* //Adding componet   */}
      <Header/> 
      <h1>{name}</h1> 
+     <Footer/>
      
     
     </div>
