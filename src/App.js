@@ -1,11 +1,12 @@
 
 import './App.css';
+import Footer from './Component/Footer';
 
 //import Header,{Footer} from './Header'; //used of object and function
 //import {Header,Footer} from '.Header'; //used multiple function
 
 import Header from './Component/Header';
-import Footer from './Component/Footer';
+
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
      <Header/> 
      <h1>{name}</h1> 
      <Footer/>
+   
      
     
     </div>
