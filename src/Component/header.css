@@ -2,5 +2,13 @@
     background-color: blanchedalmond;
 }
 .footer{
-    background-color: blueviolet ;
+    background-color: rgb(86, 226, 43) ;
+    color: aqua;
+}
+#topic{
+    color: blue;
+}
+#other{
+    background-color: rgb(215, 65, 130);
+    color: aqua;
 }

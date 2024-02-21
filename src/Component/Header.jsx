@@ -1,12 +1,13 @@
 
-//import Footer from './Footer';
+import Footer from './Footer';
 import "./header.css"
 
 function  Header  () {
   return (
     <div className='header'> 
-        <h1>Header</h1>
-        {/* <Footer/> */}
+        <h1 id="topic"> This is Header</h1>
+        <h1 id="other">This is Amazing </h1>
+        <Footer/>
     </div>
   )
 
