@@ -1,22 +1,15 @@
 
 import './App.css';
+import Header from './Header';
 
 function App() {
+  let name="WenMantra3"
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Learn react js
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     {/* //Adding componet   */}
+     <Header/> 
+     <h1>{name}</h1> 
+    
     </div>
   );
 }
