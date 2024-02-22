@@ -5,7 +5,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 //projects
-import Movie from './Movie';
+import Movie from './Movie Project/Movie';
 
 
 

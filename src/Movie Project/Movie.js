@@ -1,5 +1,5 @@
 import './Movie.css'
-import Header from './Movie Project/Header'
+import Header from './Header'
 
 function Movie() {
   return (
