@@ -1,5 +1,5 @@
 .app{
-    /* background-color: rgb(231, 194, 194); */
+    /* background-color:rgb(96, 145, 156); */
     text-align: center;
 }
 .header{
@@ -22,7 +22,7 @@
     font-weight: bold;
     text-align: start;
     width: 20%;
-    margin-top: 15px;
+    margin-top: 1px;
 
    
 }

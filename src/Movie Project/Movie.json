@@ -124,5 +124,23 @@
         "Title": "Star Wars: Star Warriors ",
         "Year": "2007",
         "Poster": "https://ia.media-imdb.com/images/M/MV5BYjUxN2EwNTEtZjEwYy00YmZiLTg4MDUtZmIxMzQ3MGZlYWU5L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNzAwODkyODg@._V1_UY268_CR82,0,182,268_AL_.jpg"
+    },
+    {
+        "imdbID": "tt2076340",
+        "Title": "Ironman",
+        "Year": "2008",
+        "Poster":"https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_FMjpg_UX1000_.jpg"
+
+    },
+    {
+        "imdbID": "tt2076340",
+        "Title": "Thor ",
+        "Year": "2011",
+        "Poster":"https://upload.wikimedia.org/wikipedia/en/9/95/Thor_%28film%29_poster.jpg"
+    },{
+        "imdbID": "tt2076340",
+        "Title": "Avanger ",
+        "Year": "2012",
+        "Poster":"https://c8.alamy.com/comp/FXEAGB/avengers-assemble-2012-directed-by-joss-whedon-and-starring-robert-FXEAGB.jpg"
     }
 ]

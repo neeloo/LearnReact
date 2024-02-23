@@ -4,7 +4,7 @@ function Movie1(props) {
     return (
         <div className='movie'>
             <img src={props.img} alt="" />
-            <p>{props.title}</p>
+            <p>Name:{props.title}</p>
             <p>Year: {props.Year}</p>
             
 

@@ -1,0 +1,28 @@
+.ns{
+    text-align: center;
+    background-color: rgb(218, 225, 177);
+}
+.header{
+    background-color: rgb(86, 86, 172);
+}
+.movie{
+    background-color: rgb(140, 180, 180);
+    color: black;
+    border: 1px solid black;
+    padding: 3px;
+    font-weight: bold;
+    text-align: start;
+    width: 20%;
+    margin-top: 1px;
+}
+.pick{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 14px;
+}
+.movie img{
+    width: 100%;
+    height: 250px;
+}
