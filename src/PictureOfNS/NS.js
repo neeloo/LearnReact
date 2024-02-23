@@ -15,6 +15,7 @@ function NS() {
                     )
                 })
             }
+            <Content/>
         </div>
     </div>
   )
