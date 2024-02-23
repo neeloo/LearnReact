@@ -10,6 +10,7 @@ function Movie() {
       </div>
       <div className="main">
         <Movie1 />
+        
       </div>
     </div>
   )
