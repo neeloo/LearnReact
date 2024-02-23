@@ -1,5 +1,23 @@
-.header{
-    background-color: rgb(170, 139, 199);
+.app{
+    /* background-color: rgb(231, 194, 194); */
     text-align: center;
-    padding: 5px;
+}
+.header{
+    background-color: rgb(104, 82, 179);
+
+    padding: 8px;
+}
+.main{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 14px;
+}
+.movie{
+    background-color: rgb(140, 180, 180);
+    color: black;
+    border: 1px solid black;
+    padding: 3px;
+   
 }

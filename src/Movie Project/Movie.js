@@ -4,11 +4,13 @@ import Movie1 from './Movie1'
 
 function Movie() {
   return (
-    <div className='header'>
-        <Header/>
-        <div className="movie">
-          <Movie1/>
-        </div>
+    <div className="app">
+      <div className='header'>
+        <Header />
+      </div>
+      <div className="main">
+        <Movie1 />
+      </div>
     </div>
   )
 }
