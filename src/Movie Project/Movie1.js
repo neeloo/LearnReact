@@ -1,14 +1,12 @@
 import React from 'react'
 
-function Movie1() {
+function Movie1(props) {
     return (
         <div className='movie'>
-            <img src="iron.jpeg " alt="" />
-            <p>Iron man</p>
-            <p>Year: 2008</p>
-            {/* <img src="thor.jpeg " alt="" />
-            <p>Thor</p>
-            <p>Year: 2011</p> */}
+            <img src={props.img} alt="" />
+            <p>{props.title}</p>
+            <p>Year: {props.Year}</p>
+            
 
         </div>
     )

@@ -1,6 +1,8 @@
 import './Movie.css'
 import Header from './Header'
 import Movie1 from './Movie1'
+import movies from './Movie.json'
+
 
 function Movie() {
   return (
@@ -9,8 +11,16 @@ function Movie() {
         <Header />
       </div>
       <div className="main">
-        <Movie1 />
-        
+        {
+          movies.map((e) => {
+            return(
+            <Movie1  title = {e.Title} Year = {e.Year}  img = {e.Poster} />
+          )
+          })
+        }
+
+
+
       </div>
     </div>
   )
