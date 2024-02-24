@@ -1,13 +1,13 @@
 .App {
   text-align: center;
-  background-color: #282c34;
+  background-color: #96afde;
   color: aliceblue;
   min-height: 100vh;
 }
 
-.header{
+/* .header{
   background-color: aqua;
 }
 .footer{
   background-color: blue;
-}
+} */

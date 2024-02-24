@@ -2,10 +2,8 @@
 import './App.css';
 //import Props from './Component/Props';
 // import Footer from './Component/Footer';
-
 //import Header,{Footer} from './Header'; //used of object and function
 //import {Header,Footer} from '.Header'; //used multiple function
-
 //import Header from './Component/Header';
 
 
