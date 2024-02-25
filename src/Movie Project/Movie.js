@@ -12,9 +12,10 @@ function Movie() {
       </div>
       <div className="main">
         {
-          movies.map((e) => {
+          movies.map((e,i) => {
             return(
-            <Movie1  title = {e.Title} Year = {e.Year}  img = {e.Poster} />
+            <Movie1 
+            key={i} title = {e.Title} Year = {e.Year}  img = {e.Poster} />
           )
           })
         }
