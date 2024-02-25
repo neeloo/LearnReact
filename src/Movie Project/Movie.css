@@ -4,7 +4,6 @@
 }
 .header{
     background-color: rgb(104, 82, 179);
-
     padding: 8px;
 }
 .main{
@@ -22,7 +21,7 @@
     font-weight: bold;
     text-align: start;
     width: 20%;
-    margin-top: 1px;
+    margin-top: 5px;
 
    
 }

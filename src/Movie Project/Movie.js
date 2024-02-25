@@ -5,6 +5,7 @@ import movies from './Movie.json'
 
 
 function Movie() {
+
   return (
     <div className="app">
       <div className='header'>
