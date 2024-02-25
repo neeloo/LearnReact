@@ -13,17 +13,17 @@ function App() {
 
   return (
     <div className="App">
-     {/* //Adding componet   */}
-     {/* <Header/> 
+      {/* //Adding componet   */}
+      {/* <Header/> 
      <h1>{name}</h1>  */}
-     {/* <Footer/> */}
-     {/* ********use of props*************  can use multiple time for single component*/}
-     {/* <Props /> */}
-     
+      {/* <Footer/> */}
+      {/* ********use of props*************  can use multiple time for single component*/}
+      {/* <Props /> */}
 
-   
-     
-    
+
+
+
+
     </div>
   );
 }

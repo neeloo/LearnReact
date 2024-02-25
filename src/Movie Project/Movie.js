@@ -13,11 +13,11 @@ function Movie() {
       </div>
       <div className="main">
         {
-          movies.map((e,i) => {
-            return(
-            <Movie1 
-            key={i} title = {e.Title} Year = {e.Year}  img = {e.Poster} />
-          )
+          movies.map((e, i) => {
+            return (
+              <Movie1
+                key={i} title={e.Title} Year={e.Year} img={e.Poster} />
+            )
           })
         }
 

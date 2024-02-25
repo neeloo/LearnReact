@@ -1,19 +1,22 @@
-.app{
+.app {
     /* background-color:rgb(96, 145, 156); */
     text-align: center;
 }
-.header{
+
+.header {
     background-color: rgb(104, 82, 179);
     padding: 8px;
 }
-.main{
+
+.main {
     justify-content: space-between;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     padding: 14px;
 }
-.movie{
+
+.movie {
     background-color: rgb(140, 180, 180);
     color: black;
     border: 1px solid black;
@@ -23,9 +26,10 @@
     width: 20%;
     margin-top: 5px;
 
-   
+
 }
-.movie img{
+
+.movie img {
     width: 100%;
     height: 250px;
 }
