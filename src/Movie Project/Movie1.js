@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 function Movie1(props) {
     return (
