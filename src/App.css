@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #96afde;
+  /* background-color: #96afde; */
   color: aliceblue;
   min-height: 100vh;
 }
@@ -12,3 +12,8 @@
 .footer{
   background-color: blue;
 } */
+
+.header {
+  background-color: rgb(62, 26, 177);
+  padding: 8px;
+}

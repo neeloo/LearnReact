@@ -1,5 +1,6 @@
 
 import './App.css';
+import Usestate from './Component/Usestate';
 //import Props from './Component/Props';
 // import Footer from './Component/Footer';
 //import Header,{Footer} from './Header'; //used of object and function
@@ -14,11 +15,12 @@ function App() {
   return (
     <div className="App">
       {/* //Adding componet   */}
-      {/* <Header/> 
-     <h1>{name}</h1>  */}
+       {/* <Header/>  */}
+     {/* <h1>{name}</h1>   */}
       {/* <Footer/> */}
       {/* ********use of props*************  can use multiple time for single component*/}
       {/* <Props /> */}
+      <Usestate/>
 
 
 
