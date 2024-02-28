@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   /* background-color: #96afde; */
-  color: aliceblue;
+  color: black;
   min-height: 100vh;
 }
 
@@ -13,7 +13,38 @@
   background-color: blue;
 } */
 
+/* usestate css */
 .header {
   background-color: rgb(62, 26, 177);
   padding: 8px;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  height: 90vh;
+
+  
+}
+
+.btn{
+  background-color: rgb(14, 14, 194);
+  color: white;
+  margin: 5px;
+  padding: 5px;
+} 
+.buttons{
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+} 
+
+.head{
+  color: black;
+  font-size: 50px;
+  margin: 10px;
 }
