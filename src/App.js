@@ -1,6 +1,7 @@
 
 import './App.css';
-import Usestate from './Component/Usestate';
+import Record from './Record Keeping project/Record';
+//import Usestate from './Component/Usestate';
 //import Props from './Component/Props';
 // import Footer from './Component/Footer';
 //import Header,{Footer} from './Header'; //used of object and function
@@ -20,7 +21,9 @@ function App() {
       {/* <Footer/> */}
       {/* ********use of props*************  can use multiple time for single component*/}
       {/* <Props /> */}
-      <Usestate/>
+      {/* <Usestate/> */}
+
+      <Record/>
 
 
 
