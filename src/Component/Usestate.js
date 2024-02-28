@@ -5,15 +5,22 @@ function Usestate() {
   const[num,setnum]=useState(1);
 
   function inc(){
+    // if(num<10){
+    //   setnum(num+1);
+    // }else{
+    //   setnum(num);
+    // }
     setnum(num+1);
   }
-  
+
   function dec(){
-    if(num>0){
-      setnum(num-1);
-    }else {
-      setnum (num);
-    }
+    // if(num>0){
+    //   setnum(num-1);
+    // }else {
+    //   setnum (num);
+    // }
+
+    setnum(num-1);
     
   }
 
