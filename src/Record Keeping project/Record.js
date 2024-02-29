@@ -4,19 +4,25 @@ import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 import AddIcon from '@mui/icons-material/Add';
+import DeleteIcon from '@mui/icons-material/Delete';
 
 
 
 function Record() {
 
-    const [name, setname] = useState("");
-    const [email, setemail] = useState("");
+    const [form,setform] = useState({});
     const [data, setdata] = useState([]);
 
     function add() {
-        setdata([...data, { name, email }])
-        setname("")
-        setemail("")
+        setdata([...data,form])
+        setform(form);
+        
+    }
+
+    function remove(index) {
+        let arr = data;
+        arr.splice(index, 1);
+        setdata([...arr]);     //spread oprater
     }
 
 
@@ -27,22 +33,39 @@ function Record() {
             <div className="form">
                 <Stack direction="row" spacing={2}>
                     <TextField
-                        value={name}
-                        onChange={(event) => setname(event.target.value)}
+                        value={form.name}
+                        onChange={(event) => setform({...form,name:event.target.value})}
                         id="outlined-basic" label="Name" variant="outlined"
                     />
                     <TextField
-                        value={email}
-                        onChange={(event) => setemail(event.target.value)}
+                        value={form.email}
+                        onChange={(event) => setform({...form,email: event.target.value})}
                         id="outlined-basic" label="Email" variant="outlined"
                     />
-                    <Button onClick={add}
-                        variant="contained" color="error"><AddIcon /> </Button>
+                    <Button onClick={add} variant="contained" color="success"><AddIcon /> </Button>
                 </Stack>
             </div>
 
             {/* data */}
             <div className="data">
+                <div className='val'>
+                    <h4>Name</h4>
+                    <h4>Email</h4>
+                    <h4>Remove</h4>
+                </div>
+                {
+                    data.map((e, index) => {
+                        return (
+                            <div key={index} className='val'>
+                                <h4>{e.name}</h4>
+                                <h4>{e.email}</h4>
+                                <Stack>
+                                    <Button onClick={() => remove(index)} variant="contained" color="error"><DeleteIcon /> </Button>
+                                </Stack>
+                            </div>
+                        )
+                    })
+                }
 
             </div>
 

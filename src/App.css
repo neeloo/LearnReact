@@ -75,4 +75,39 @@ h1{
 .form{
   margin-top: 35px;
   
+  
 }
+.data{
+  margin-top: 10px;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.val{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width:50%;
+padding: 0px 9px 0px 9px;
+ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
