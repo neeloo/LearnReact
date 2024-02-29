@@ -4,6 +4,7 @@
   /* background-color: #96afde; */
   /* color: black; */
   /* min-height: 100vh; */
+  
 } 
 
 
@@ -54,10 +55,23 @@
 /* record keeping css */
 .record{
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
-.r{
+h1{
+  margin: 0;
+}
+.h{
   background-color:rgb(55, 129, 55);
   color: black;
-  padding: 2px;
-  /* margin-top: 2px; */
+  padding: 15px;
+  width: 100%;
+
+}
+.form{
+  
+  margin-top: 35px;
+  
 }
