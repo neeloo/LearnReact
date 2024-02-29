@@ -60,9 +60,11 @@
   align-items: center;
 
 }
+
 h1{
   margin: 0;
 }
+
 .h{
   background-color:rgb(55, 129, 55);
   color: black;
@@ -71,7 +73,6 @@ h1{
 
 }
 .form{
-  
   margin-top: 35px;
   
 }

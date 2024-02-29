@@ -11,10 +11,10 @@ function Record() {
 
     const [name, setname] = useState("");
     const [email, setemail] = useState("");
-    const[data,setdata]=useState([]);
+    const [data, setdata] = useState([]);
 
-    function add(){
-        setdata([...data,{ name, email }])
+    function add() {
+        setdata([...data, { name, email }])
         setname("")
         setemail("")
     }
@@ -36,8 +36,8 @@ function Record() {
                         onChange={(event) => setemail(event.target.value)}
                         id="outlined-basic" label="Email" variant="outlined"
                     />
-                    <Button onClick={add} 
-                    variant="contained" color="error"><AddIcon /> </Button>
+                    <Button onClick={add}
+                        variant="contained" color="error"><AddIcon /> </Button>
                 </Stack>
             </div>
 
