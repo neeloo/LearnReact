@@ -1,6 +1,7 @@
 
 import './App.css';
-import Record from './Record Keeping project/Record';
+import UseEffect from './Component/UseEffect';
+//import Record from './Record Keeping project/Record';
 //import Usestate from './Component/Usestate';
 //import Props from './Component/Props';
 // import Footer from './Component/Footer';
@@ -17,15 +18,20 @@ function App() {
   return (
     <div className="App">
       {/* //Adding componet   */}
-       {/* <Header/>  */}
-     {/* <h1>{name}</h1>   */}
+      {/* <Header/>  */}
+
+      {/* <h1>{name}</h1>   */}
       {/* <Footer/> */}
+
       {/* ********use of props*************  can use multiple time for single component*/}
       {/* <Props /> */}
       {/* <Usestate/> */}
 
-     {/* record keeping project */}
-      <Record/>
+      {/* record keeping project */}
+      {/* <Record/> */}
+
+      <UseEffect />
+
 
 
 

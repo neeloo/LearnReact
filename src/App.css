@@ -53,6 +53,7 @@
 
 
 /* record keeping css */
+/*
 .record{
   text-align: center;
   display: flex;
@@ -91,9 +92,23 @@ align-items: center;
 justify-content: space-between;
 width:50%;
 padding: 0px 9px 0px 9px;
- /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
 }
+*/
+
+/* useeffect */
+h1{
+  background-color: rgb(78, 78, 230);
+  padding: 14px;
+}
+
+.not{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 5px;
+}
+
 
 
 
