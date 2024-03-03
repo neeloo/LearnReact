@@ -28,6 +28,7 @@ console.log("first number is called")
       {
         data.map((e,i)=>{
             return(
+              
                 <div  key={i}className="not">
                 <h4>{e.firstName}</h4>
                 <h4>{e.lastName}</h4>
