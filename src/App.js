@@ -1,7 +1,7 @@
 
 import './App.css';
-import UseEffect from './Component/UseEffect';
-import Record from './Record Keeping project/Record';
+//import UseEffect from './Component/UseEffect';
+//import Record from './Record Keeping project/Record';
 //import Usestate from './Component/Usestate';
 //import Props from './Component/Props';
 // import Footer from './Component/Footer';
@@ -28,7 +28,7 @@ function App() {
       {/* <Usestate/> */}
 
       {/* record keeping project */}
-      <Record/>
+      {/* <Record/> */}
 
       {/* <UseEffect /> */}
 
