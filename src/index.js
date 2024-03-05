@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 
 //projects
- //import Movie from './Movie Project/Movie';
+ import Movie from './Movie Project/Movie';
 //import NS from './PictureOfNS/NS';
 
 
@@ -15,9 +15,9 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
 
-    {/* <Movie/> */}
+    <Movie/>
 
     {/* <NS/> */}
   </React.StrictMode>
