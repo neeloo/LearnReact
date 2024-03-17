@@ -10,14 +10,20 @@ import DeleteIcon from '@mui/icons-material/Delete';
 
 function Record() {
 
-    const [form,setform] = useState({});
+    const [form, setform] = useState({});
     const [data, setdata] = useState([]);
 
     function add() {
-        setdata([...data,form])
+        setdata([...data, form])
         setform(form);
-        
+
     }
+
+    // const handlepress=(e)=>{
+    //     if(e.key == 'Enter'){
+    //         add();
+    //     }
+    //}
 
     function remove(index) {
         let arr = data;
@@ -33,13 +39,15 @@ function Record() {
             <div className="form">
                 <Stack direction="row" spacing={2}>
                     <TextField
+                        // onKeyPress={(e) => (handlepress)}
                         value={form.name}
-                        onChange={(event) => setform({...form,name:event.target.value})}
+                        onChange={(event) => setform({ ...form, name: event.target.value })}
                         id="outlined-basic" label="Name" variant="outlined"
                     />
                     <TextField
+                        // onkeyPress={(e) => (handlepress)}
                         value={form.email}
-                        onChange={(event) => setform({...form,email: event.target.value})}
+                        onChange={(event) => setform({ ...form, email: event.target.value })}
                         id="outlined-basic" label="Email" variant="outlined"
                     />
                     <Button onClick={add} variant="contained" color="success"><AddIcon /> </Button>
