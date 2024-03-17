@@ -82,4 +82,4 @@ function Record() {
     )
 }
 
-export default Record
+export default Record;
